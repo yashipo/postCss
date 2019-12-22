@@ -1,0 +1,36 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "postcssを使いたい",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashipo/vue_btn.git"
+  },
+  "author": "yashipo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashipo/vue_btn/issues"
+  },
+  "homepage": "https://github.com/yashipo/vue_btn#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2"
+  }
+}
